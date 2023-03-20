@@ -1,8 +1,14 @@
 function romano(a) {
+  let cadena = "";
   if (a == 1)
   {
-    return "I"
+    cadena = "I";
   }
+  if (a == 2)
+  {
+    cadena = "II";
+  }
+  return cadena;
 }
 
 export default romano;
