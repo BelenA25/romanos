@@ -2,6 +2,9 @@ function romano(a) {
   let cadena = "";
   const decena = Math.floor(a / 10);
   const unidad = Math.floor((a - (decena * 10)));
+  if(a==100){
+    cadena = "C";
+  }
   switch (decena) {
     case 1:
       cadena = "X";

@@ -25,4 +25,7 @@ describe("Numero romano", () => {
   it("deberia representar el numero 73 en romano", () => {
     expect(romano(73)).toEqual("LXXIII");
   });
+  it("deberia representar el numero 100 en romano", () => {
+    expect(romano(100)).toEqual("C");
+  });
 });
