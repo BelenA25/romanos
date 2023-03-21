@@ -8,6 +8,10 @@ function romano(a) {
   {
     cadena = "II";
   }
+  if (a == 3)
+  {
+    cadena = "III";
+  }
   return cadena;
 }
 
