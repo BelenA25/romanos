@@ -28,6 +28,9 @@ function romano(a) {
     case 9:
       cadena = "IX";
       break;
+    case 10:
+      cadena = "X";
+      break;
   }
   return cadena;
 }
