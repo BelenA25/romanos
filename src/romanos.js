@@ -1,6 +1,16 @@
 function romano(a) {
   let cadena = "";
-  switch(a){
+  const decena = Math.floor(a/10);
+	const unidad = Math.floor((a-(decena*10)));
+  switch(decena){
+    case 1:
+      cadena = "X";
+      break;
+    case 2:
+      cadena = "XX";
+      break;
+  }
+  switch(unidad){
     case 1:
       cadena = "I";
       break;
@@ -27,9 +37,6 @@ function romano(a) {
       break;
     case 9:
       cadena = "IX";
-      break;
-    case 10:
-      cadena = "X";
       break;
   }
   return cadena;
