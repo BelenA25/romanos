@@ -10,6 +10,24 @@ function romano(a) {
     case 3:
       cadena = "III";
       break;
+    case 4:
+      cadena = "IV";
+      break;
+    case 5:
+      cadena = "V";
+      break;
+    case 6:
+      cadena = "VI";
+      break;
+    case 7:
+      cadena = "VII";
+      break;
+    case 8:
+      cadena = "VIII";
+      break;
+    case 9:
+      cadena = "IX";
+      break;
   }
   return cadena;
 }
