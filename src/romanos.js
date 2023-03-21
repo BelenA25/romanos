@@ -33,31 +33,31 @@ function romano(a) {
   }
   switch (unidad) {
     case 1:
-      cadena = "I";
+      cadena += "I";
       break;
     case 2:
-      cadena = "II";
+      cadena += "II";
       break;
     case 3:
-      cadena = "III";
+      cadena += "III";
       break;
     case 4:
-      cadena = "IV";
+      cadena += "IV";
       break;
     case 5:
-      cadena = "V";
+      cadena += "V";
       break;
     case 6:
-      cadena = "VI";
+      cadena += "VI";
       break;
     case 7:
-      cadena = "VII";
+      cadena += "VII";
       break;
     case 8:
-      cadena = "VIII";
+      cadena += "VIII";
       break;
     case 9:
-      cadena = "IX";
+      cadena += "IX";
       break;
   }
   return cadena;

@@ -22,4 +22,7 @@ describe("Numero romano", () => {
   it("deberia representar el cualquier decena en romano", () => {
     expect(romano(60)).toEqual("LX");
   });
+  it("deberia representar el numero 73 en romano", () => {
+    expect(romano(73)).toEqual("LXXIII");
+  });
 });
