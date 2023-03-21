@@ -1,16 +1,15 @@
 function romano(a) {
   let cadena = "";
-  if (a == 1)
-  {
-    cadena = "I";
-  }
-  if (a == 2)
-  {
-    cadena = "II";
-  }
-  if (a == 3)
-  {
-    cadena = "III";
+  switch(a){
+    case 1:
+      cadena = "I";
+      break;
+    case 2:
+      cadena = "II";
+      break;
+    case 3:
+      cadena = "III";
+      break;
   }
   return cadena;
 }
